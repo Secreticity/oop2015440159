@@ -1,8 +1,22 @@
 
 public class Point {
 
-	public double x;  //필드의 유효범위(scope)은 class 전체.
-	public double y;
+	private double x;  //필드의 유효범위(scope)은 class 전체.
+	private double y;
+	
+	public void setX(double xx) {
+		this.x = xx;
+	}
+	public void setY(double yy) {
+		this.y = yy;
+	}
+
+	public double getX() {
+		return x;
+	}
+	public double getY() {
+		return y;
+	}
 	
 	public double distance() {
 		double dis;   //지역 변수의 유효범위는 메소드 내부
