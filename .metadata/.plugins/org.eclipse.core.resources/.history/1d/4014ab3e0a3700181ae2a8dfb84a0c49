@@ -1,0 +1,21 @@
+
+public class Point {
+
+	public double x;
+	public double y;
+	
+	public Point move(Point p) {
+
+		//C : P2 = move(p1, p);
+		//Java: P2 = P1.move(p);
+
+		double a, b;
+		a= this.x + p.x;
+		b = this.y + p.y;
+		
+		Point pnt = new Point();
+		pnt.x = a;
+		pnt.y = b;
+		return pnt;
+	}
+}

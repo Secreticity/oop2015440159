@@ -1,0 +1,15 @@
+
+public class Point {
+
+	public double x;
+	public double y;
+	
+	public Point move(Point p) {
+		
+		//C : P2 = move(p1, p);
+		//Java: P2 = P1.move(p);
+		
+		Point p2 = null;
+		return p2;
+	}
+}

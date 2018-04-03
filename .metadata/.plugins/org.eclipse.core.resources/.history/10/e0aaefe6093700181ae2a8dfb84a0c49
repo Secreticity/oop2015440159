@@ -1,0 +1,13 @@
+
+public class Point {
+
+	public double x;
+	public double y;
+	
+	public Point move(Point p) {
+		
+		
+		Point p2 = null;
+		return p2;
+	}
+}
