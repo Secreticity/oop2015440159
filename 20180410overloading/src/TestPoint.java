@@ -17,11 +17,10 @@ public class TestPoint {
 		Point pnt1 = new Point();
 		Point pnt2 = new Point();
 		pnt1.setX(1.0); pnt1.setY(1.0);
-		pnt2.setX(2.0); pnt2.setY(2.0);
+		pnt2.setX(3.0); pnt2.setY(3.0);
 
 		System.out.println(pnt1);
 		System.out.println(pnt1.distance());
 		System.out.println(pnt1.distance(pnt2));
 	}
-
 }

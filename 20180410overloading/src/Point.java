@@ -12,6 +12,7 @@ public class Point {
 		return dis;
 	}
 	
+	//Distance Method
 	public double distance(Point p) {  //Method Overloading : Same method name, but different actions according to parameters.
 		
 		return Math.sqrt( (this.x - p.getX())*(this.x - p.getX())+(this.y - p.getY())*(this.y - p.getY()) );
