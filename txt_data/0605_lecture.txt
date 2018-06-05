@@ -1,0 +1,21 @@
+Class
+ - Function : Methods
+ - Structures : Field
+
+Encapsulation
+ - Show only necessary info to other classes/packages
+
+Inheritance
+ - VERY POWERFUL
+ - inherit all fields and methods
+ - choose/select needed-only field/methods from mother packages
+ - KEY: REUSE
+
+Polymorphism
+ - Upcasting / Downcasting
+  ( xx.eat() runs at the LAST step - when running the whole program )
+  ( depends on "xx", methods are fixed after instance determination )
+  ( Dog eats vs Cat eats. -> Different method call )
+ - polymorphism : same name, but different shape
+
+ - static / dynamic
